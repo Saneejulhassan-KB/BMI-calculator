@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://bodyscanbrisbane.com.au/wp-content/uploads/2021/05/body-scan-male-female.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#outerBox {
+    height: 400px;
+    margin-top: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px, 2px, 20px #919191;
+    position: relative;
+    left: -140px;
+    width: 700px;
+    right: 90px;
+    padding: 30px;
+}
+
+#heading {
+    display: flex;
+    gap: 8px;
+}
+
+#heading h1 {
+    color: white;
+    margin-top: 100px;
+
+
+}
+
+#heading img {
+    margin-top: 110px;
+}
+
+#newBox {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px, 2px, 20px #919191;
+    position: relative;
+    left: 150px;
+    top: 287px;
+    width: 300px;
+
+}
+
+#newBox h3 {
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px){
+    body {
+        background-image: url(https://bodyscanbrisbane.com.au/wp-content/uploads/2021/05/body-scan-male-female.jpg);
+        background-size: auto;
+        position: relative;
+    }
+
+    #heading{
+        position: relative;
+        left: 60px;
+        width: 500px;
+    }
+    #heading h1{
+        position: absolute;
+        left: 80px;
+        font-size: 30px;
+        top: 20px;
+        
+        
+    }
+
+    #heading img{
+        position: absolute;
+        left: 30px;
+        width: 80px;
+        height: 80px;
+
+    }
+    
+    .bmindex{
+        position: relative;
+        left: 40px;
+        
+
+    }
+
+    #outerBox{
+        position: absolute;
+        left: 50px;
+        top: 180px;
+        width: 480px;
+        
+    }
+
+    .gender{
+        position: absolute;
+        left: 20px;
+    }
+
+    #height p{
+        position: absolute;
+        right: 2px; 
+        top: -5px;
+    }
+
+    .age p{
+        position: absolute;
+        left: -10px;
+    }
+
+    #weight p{
+        position: absolute;
+        right: 2px; 
+       
+    }
+
+    .buttons{
+        position: absolute;
+        left:-110px ;
+        top: -5px;
+    }
+
+    #newBox{
+        position: absolute;
+        top: 700px;
+    }
+    
+}
